@@ -7,6 +7,7 @@ import Header from '../components/header/header'
 import { useSelector } from 'react-redux'
 import { selectTheme } from '../features/theme/themeSlice'
 import Introduction from '../components/introduction/introduction'
+import Skills from '../components/skills/skills';
 
 export default function Home(): JSX.Element {
 
@@ -26,6 +27,7 @@ export default function Home(): JSX.Element {
                 styles.main
             )}>
                 <Introduction />
+                <Skills />
             </main>
 
         </div>

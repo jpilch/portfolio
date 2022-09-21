@@ -2,6 +2,8 @@ import styles from "./introduction.module.css";
 import utilStyles from "../../utils/utils.module.css";
 import cn from "classnames";
 
+import Brightness6Icon from '@mui/icons-material/Brightness6';
+
 export default function Introduction() {
     return (
         <section className={cn(
@@ -13,8 +15,11 @@ export default function Introduction() {
                 <span className={cn(styles.name)}>Jan Pilch</span>
                 I am an aspiring web developer, interested in both frontend and backend development.
             </p>
-            <div className="theme-toggler">
-                <button>toggle theme</button>
+            <div className={cn(utilStyles["flex-container"])}>
+                <Brightness6Icon
+                    fontSize="large"
+                    className="icon"
+                />
             </div>
         </section>
     )
