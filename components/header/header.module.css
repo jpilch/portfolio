@@ -1,0 +1,12 @@
+.header {
+    justify-content: center;
+    padding: 1em;
+}
+
+.header__nav {
+    width: var(--width-lg);
+}
+
+.header__links {
+    list-style-type: none;
+}
