@@ -8,6 +8,7 @@ import { useSelector } from 'react-redux'
 import { selectTheme } from '../features/theme/themeSlice'
 import Introduction from '../components/introduction/introduction'
 import Skills from '../components/skills/skills';
+import Projects from '../components/projects/projects';
 
 export default function Home(): JSX.Element {
 
@@ -28,7 +29,10 @@ export default function Home(): JSX.Element {
             )}>
                 <Introduction />
                 <Skills />
+                <Projects />
             </main>
+
+
 
         </div>
     );

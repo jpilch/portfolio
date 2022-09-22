@@ -2,7 +2,8 @@ import styles from "./skills.module.css";
 import utilStyles from "../../utils/utils.module.css";
 import cn from "classnames";
 
-import HandymanIcon from '@mui/icons-material/Handyman';
+import HandymanOutlinedIcon from '@mui/icons-material/HandymanOutlined';
+import uniqueId from "lodash/uniqueId";
 
 import skills from "./skills.json";
 import Skill from "./skill";
@@ -16,18 +17,21 @@ export default function Skills() {
                 utilStyles["section-heading"],
                 utilStyles["flex-container"]
             )}>
-                <HandymanIcon />
+                <HandymanOutlinedIcon />
                 <p>Skills</p>
             </div>
             <div className={cn(
                 styles.list,
                 utilStyles["flex-container"]
             )}>
-                {skills.map(({ name, src }) => {
-                    return <Skill name={name} src={src} />
-                })}
+                {skills.map(({ name, src }) => (
+                    <Skill
+                        name={name}
+                        src={src}
+                        key={uniqueId("skill")}
+                    />
+                ))}
             </div>
-
         </section>
     )
 }

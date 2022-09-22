@@ -1,0 +1,28 @@
+.projects {
+    width: var(--width-lg);
+}
+
+.list {
+    margin-top: 2em;
+    flex-wrap: wrap;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+.item {
+    flex-basis: 45%;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: var(--bg-color-secondary);
+    height: 15rem;
+    padding: 0.5em;
+}
+
+.project-link {
+    border: 1px solid var(--color-secondary);
+}
+
+.project-tag {
+    background-color: 1px solid var(--color-secondary);
+    opacity: 0.5;
+}
