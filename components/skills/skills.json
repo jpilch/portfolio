@@ -8,8 +8,8 @@
         "name": "HTML5"
     },
     {
-        "src": "images/java.png",
-        "name": "Java"
+        "src": "images/sass.png",
+        "name": "SASS"
     },
     {
         "src": "images/js.png",
@@ -26,5 +26,25 @@
     {
         "src": "images/next.png",
         "name": "Next"
+    },
+    {
+        "src": "images/node.png",
+        "name": "Node"
+    },
+    {
+        "src": "images/java.png",
+        "name": "Java"
+    },
+    {
+        "src": "images/database.png",
+        "name": "SQL"
+    },
+    {
+        "src": "images/docker.png",
+        "name": "Docker"
+    },
+    {
+        "src": "images/git.png",
+        "name": "Git"
     }
 ]

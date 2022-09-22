@@ -5,6 +5,7 @@
 
 
 .name {
+    color: var(--color-secondary);
     display: block;
     font-size: 2em;
 }

@@ -13,7 +13,7 @@ export default function Skill({ src, name }: { src: string, name: string }) {
                 src={src}
                 alt={`${name} logo`}
                 className="skill-logo"
-                width={50}
+                height={50}
             />
             <p className="name">{name}</p>
         </div>
