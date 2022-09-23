@@ -63,5 +63,25 @@
                 "url": "https://www.example.com"
             }
         ]
+    },
+    {
+        "name": "Thesis",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "tags": [
+            "python",
+            "jupyter notebook",
+            "image-detection",
+            "data-compression"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "url": "https://www.example.com"
+            },
+            {
+                "name": "Demo",
+                "url": "https://www.example.com"
+            }
+        ]
     }
 ]
