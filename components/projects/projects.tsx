@@ -24,8 +24,7 @@ export default function Projects() {
                 styles.list,
             )}>
                 {projects.map((project) => (
-                    <Project
-                        {...project}
+                    <Project {...project}
                         key={uniqueId("project")}
                     />
                 ))}

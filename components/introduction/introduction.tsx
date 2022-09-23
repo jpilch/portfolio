@@ -8,19 +8,11 @@ export default function Introduction() {
     return (
         <section className={cn(
             styles.introduction,
-            utilStyles["flex-container"]
-
         )}>
             <p>Hello there! My name is
-                <span className={cn(styles.name)}>Jan Pilch</span>
-                I am an aspiring web developer, interested in both frontend and backend development.
+                <span className={cn(styles.name)}> Jan Pilch</span>.
             </p>
-            <div className={cn(utilStyles["flex-container"])}>
-                <Brightness6Icon
-                    fontSize="large"
-                    className="icon"
-                />
-            </div>
+            <p>I am an aspiring web developer, interested in both frontend and backend development.</p>
         </section>
     )
 }

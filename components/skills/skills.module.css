@@ -10,7 +10,7 @@
 }
 
 .item {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border-color-primary);
     width: 6em;
     height: 6em;
     border-radius: 0.5rem;

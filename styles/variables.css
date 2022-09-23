@@ -1,9 +1,10 @@
 :root {
-    --color-primary: #000;
-    --color-secondary: rgb(0, 119, 255);
+    --color-primary: #333;
+    --color-secondary: #333;
 
     --bg-color-primary: #fff;
-    --bg-color-secondary: rgb(247, 247, 247);
-    --bg-color-highlight: rgba(0, 119, 255, 0.5);
+    --bg-color-secondary: rgb(248, 248, 248);
+    --bg-color-highlight: rgba(0, 0, 0, 0.6);
 
+    --border-color-primary: #ddd;
 }

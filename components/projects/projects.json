@@ -1,23 +1,16 @@
 [
     {
         "name": "Comms",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi.",
-        "tags": [],
-        "links": [
-            {
-                "name": "GitHub",
-                "url": "https://www.example.com"
-            },
-            {
-                "name": "Demo",
-                "url": "https://www.example.com"
-            }
-        ]
-    },
-    {
-        "name": "MotoRent",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi.",
-        "tags": [],
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "tags": [
+            "typescript",
+            "react",
+            "node",
+            "express",
+            "css modules",
+            "socket.io",
+            "prisma"
+        ],
         "links": [
             {
                 "name": "GitHub",
@@ -31,8 +24,35 @@
     },
     {
         "name": "IP Helper",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi.",
-        "tags": [],
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "tags": [
+            "typescript",
+            "next",
+            "sass modules",
+            "ssr",
+            "ssg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "url": "https://www.example.com"
+            },
+            {
+                "name": "Demo",
+                "url": "https://www.example.com"
+            }
+        ]
+    },
+    {
+        "name": "MotoRent",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "tags": [
+            "javascript",
+            "react",
+            "node",
+            "express",
+            "mongodb"
+        ],
         "links": [
             {
                 "name": "GitHub",

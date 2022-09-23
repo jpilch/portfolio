@@ -2,6 +2,9 @@ import utilStyles from "../../utils/utils.module.css";
 import styles from "./header.module.css";
 import cn from "classnames";
 
+import Brightness6Icon from '@mui/icons-material/Brightness6';
+
+
 export default function Header() {
     return (
         <header className={cn(
@@ -17,6 +20,10 @@ export default function Header() {
                     <li>Skills</li>
                     <li>Projects</li>
                     <li>Contact</li>
+                    <li><Brightness6Icon
+                        fontSize="small"
+                        className="icon"
+                    /></li>
                 </ul>
             </nav>
         </header >
