@@ -18,16 +18,15 @@ const themeSlice = createSlice({
     name: "theme",
     initialState,
     reducers: {
-        switchToLight: (state) => {
-            state.theme = Theme.light;
-        },
-        switchToDark: (state) => {
-            state.theme = Theme.dark;
+        switchTheme: (state) => {
+            state.theme = state.theme === Theme.light
+                ? Theme.dark
+                : Theme.light;
         },
     },
 });
 
-export const { switchToDark, switchToLight } = themeSlice.actions;
+export const { switchTheme } = themeSlice.actions;
 
 export const selectTheme = (state: RootState) => state.theme.theme;
 

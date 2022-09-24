@@ -5,9 +5,12 @@ import cn from "classnames";
 import Brightness6Icon from '@mui/icons-material/Brightness6';
 
 import { useRef } from "react";
+import { useDispatch } from "react-redux";
+import { switchTheme } from "../../features/theme/themeSlice";
 
 export default function Header() {
     const themeIconRef = useRef<SVGSVGElement>(null);
+    const dispatch = useDispatch();
 
     return (
         <header className={cn(
@@ -37,6 +40,7 @@ export default function Header() {
                             const target = e.target as HTMLElement;
                             if (!target.closest("svg")) return false;
                             themeIconRef.current?.classList.toggle("toggled");
+                            dispatch(switchTheme());
                         }}
                     >
                         <Brightness6Icon
