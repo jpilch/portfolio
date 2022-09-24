@@ -34,16 +34,16 @@
 .project-link {
     font-size: 0.8em;
     padding: 0.2em 0.5em;
-    color: var(--color-secondary);
-    border: 2px solid var(--color-secondary);
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
     border-radius: 0.2rem;
     font-weight: bold;
     transition: background-color 0.1s ease-out, color 0.1s ease-out;
 }
 
 .project-link:hover {
-    background-color: var(--color-secondary);
-    color: #fff;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     cursor: pointer;
 }
 
@@ -56,8 +56,8 @@
 }
 
 .project-tag {
-    background-color: rgb(65, 65, 65);
-    color: #fff;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
     padding: 0.2em 0.5em;
     border-radius: 0.2rem;
 }

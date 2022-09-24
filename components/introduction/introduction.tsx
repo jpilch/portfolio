@@ -1,10 +1,14 @@
 import styles from "./introduction.module.css";
-import utilStyles from "../../utils/utils.module.css";
 import cn from "classnames";
 
-import Brightness6Icon from '@mui/icons-material/Brightness6';
+import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { selectTheme } from "../../features/theme/themeSlice";
+import { Theme } from "../../features/theme/themeSlice";
 
 export default function Introduction() {
+    const theme = useSelector(selectTheme);
+
     return (
         <section className={cn(
             styles.introduction,
@@ -13,6 +17,7 @@ export default function Introduction() {
                 <span className={cn(styles.name)}> Jan Pilch</span>.
             </p>
             <p>I am an aspiring web developer, interested in both frontend and backend development.</p>
+            <p>Current theme - {Theme[theme]}</p>
         </section>
     )
 }

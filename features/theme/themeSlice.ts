@@ -1,5 +1,6 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../app/store";
+import { adjustTo } from "../../lib/theme";
 
 export enum Theme {
     light,
@@ -22,6 +23,7 @@ const themeSlice = createSlice({
             state.theme = state.theme === Theme.light
                 ? Theme.dark
                 : Theme.light;
+            adjustTo(state.theme);
         },
     },
 });

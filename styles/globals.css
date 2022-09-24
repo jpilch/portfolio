@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-
-    --width-lg: 50%;
-
     font-size: 1rem;
     font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
         Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

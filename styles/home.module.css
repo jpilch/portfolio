@@ -1,8 +1,8 @@
 .main {
-    margin-top: 2em;
+    background-color: var(--bg-color-primary);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 1em;
-    gap: 5em;
+    padding: 3em 1em 3em;
+    gap: 3em;
 }

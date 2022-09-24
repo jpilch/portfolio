@@ -1,10 +1,13 @@
 :root {
+    --width-lg: 50%;
+
     --color-primary: #333;
-    --color-secondary: #333;
+    --color-secondary: #fff;
 
     --bg-color-primary: #fff;
     --bg-color-secondary: rgb(248, 248, 248);
     --bg-color-highlight: rgba(0, 0, 0, 0.6);
-
+    --test: #1d1d1d;
+    --test: #2e2e2e;
     --border-color-primary: #ddd;
 }

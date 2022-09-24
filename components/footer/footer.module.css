@@ -2,7 +2,7 @@
     background-color: var(--bg-color-secondary);
     width: 100%;
     border-top: 1px solid var(--border-color-primary);
-    margin: 3em auto 0;
+    margin: auto;
     padding: 2em 0.5em 2em;
 }
 
