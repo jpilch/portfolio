@@ -1,4 +1,6 @@
 .header {
+    background-color: var(--bg-color-secondary);
+    border-bottom: 1px solid var(--border-color-primary);
     justify-content: center;
     padding: 1em;
 }

@@ -22,3 +22,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.theme-icon {
+    transition: 0.2s transform ease-in-out;
+}
+
+.theme-icon:hover {
+    cursor: pointer;
+}
+
+.toggled {
+    transform: rotate(180deg);
+}
