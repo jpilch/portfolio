@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--bg-color-secondary);
+    width: 100%;
+    border-top: 1px solid var(--border-color-primary);
+    margin: 3em auto 0;
+    padding: 2em 0.5em 2em;
+}
+
+.links-container {
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.list-cat {
+    font-weight: bold;
+}
+
+.list {
+    padding-top: 1em;
+    padding-left: 0.5em;
+    list-style-type: none;
+}
