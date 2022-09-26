@@ -35,3 +35,5 @@ export const CSSVariables = {
         dark: "#444",
     },
 }
+
+export const LSThemeKey = "THEME";

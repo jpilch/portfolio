@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../app/store";
 import { adjustTo } from "../../lib/theme";
 
@@ -25,10 +25,14 @@ const themeSlice = createSlice({
                 : Theme.light;
             adjustTo(state.theme);
         },
+        switchTo: (state, action: PayloadAction<Theme>) => {
+            state.theme = action.payload;
+            adjustTo(action.payload);
+        },
     },
 });
 
-export const { switchTheme } = themeSlice.actions;
+export const { switchTheme, switchTo } = themeSlice.actions;
 
 export const selectTheme = (state: RootState) => state.theme.theme;
 
