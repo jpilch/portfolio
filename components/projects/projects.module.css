@@ -11,6 +11,10 @@
 }
 
 .item {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 1em;
     flex-basis: calc(50% - 1em);
     border: 1px solid var(--border-color-primary);
     border-radius: 0.5rem;
@@ -48,9 +52,9 @@
 }
 
 .project-tags {
-    margin-top: 5%;
     justify-content: flex-start;
     gap: 0.5em;
+    flex: 1;
     flex-wrap: wrap;
     font-size: 0.8em;
 }
@@ -63,5 +67,6 @@
 }
 
 .project-desc {
-    margin-top: 2em;
+    justify-content: flex-end;
+    flex: 2;
 }

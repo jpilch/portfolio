@@ -18,6 +18,7 @@ export default function Footer() {
                             <a
                                 href="https://www.linkedin.com/in/jan-pilch-202a30249/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 &gt; LinkedIn
                             </a>
@@ -26,6 +27,7 @@ export default function Footer() {
                             <a
                                 href="https://github.com/jpilch"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 &gt; GitHub
                             </a>
@@ -40,6 +42,7 @@ export default function Footer() {
                             <a
                                 href="https://drive.google.com/file/d/1bgxGmL_Kb_FYjqD9kgYfzoYKg1XHBWr3/view?usp=sharing"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 &gt; CCNA R&amp;S: Introduction to Networks
                             </a>
@@ -48,6 +51,7 @@ export default function Footer() {
                             <a
                                 href="https://drive.google.com/file/d/1csMh8vGiRNgR6w8w1EkeE0tz8NYQt699/view?usp=sharing"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 &gt; CCNAv7: Switching, Routing, and Wireless Essentials
                             </a>

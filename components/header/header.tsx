@@ -30,6 +30,7 @@ export default function Header() {
                         <a
                             href="https://drive.google.com/file/d/1GZjV3zYTT-atfjGKYtjkFyEeZH9ClXoH/view?usp=sharing"
                             target={"_blank"}
+                            rel="noreferrer"
                         >
                             Resume
                         </a>

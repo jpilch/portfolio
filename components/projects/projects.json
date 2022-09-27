@@ -1,7 +1,7 @@
 [
     {
         "name": "Comms",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "desc": "Fullstack web application enabling real time text-based communication. It features two usage modes, one with, and one without account authentication. Real time notification were possible thanks to Socket.io library.",
         "tags": [
             "typescript",
             "react",

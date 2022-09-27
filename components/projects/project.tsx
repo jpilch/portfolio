@@ -17,7 +17,10 @@ export default function Project({
     links: Array<{ name: string, url: string }>
 }) {
     return (
-        <div className={styles.item}>
+        <div className={cn(
+            utilStyles["flex-container"],
+            styles.item
+        )}>
             <div className={cn(utilStyles["flex-container"])}>
                 <p className={styles["project-title"]}>
                     {name}
