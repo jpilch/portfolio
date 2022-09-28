@@ -22,10 +22,10 @@ export default function Header() {
                     utilStyles["flex-container"],
                     styles.header__links
                 )}>
-                    <li>Home</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li className={styles["header__link--removable"]}>Home</li>
+                    <li className={styles["header__link--removable"]}>Skills</li>
+                    <li className={styles["header__link--removable"]}>Projects</li>
+                    <li className={styles["header__link--removable"]}>Contact</li>
                     <li>
                         <a
                             href="https://drive.google.com/file/d/1GZjV3zYTT-atfjGKYtjkFyEeZH9ClXoH/view?usp=sharing"

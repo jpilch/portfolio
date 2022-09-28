@@ -12,3 +12,13 @@
 .header__links {
     list-style-type: none;
 }
+
+.header__link--removable {
+    display: initial;
+}
+
+@media screen and (max-width: 400px) {
+    .header__link--removable {
+        display: none;
+    }
+}

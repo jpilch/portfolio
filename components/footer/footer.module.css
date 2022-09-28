@@ -7,7 +7,7 @@
 }
 
 .links-container {
-    width: 50%;
+    width: var(--width-lg);
     margin: auto;
     justify-content: space-around;
 }
@@ -20,4 +20,13 @@
     padding-top: 1em;
     padding-left: 0.5em;
     list-style-type: none;
+}
+
+@media screen and (max-width: 550px) {
+    .links-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2em;
+    }
 }
