@@ -19,7 +19,7 @@
     border: 1px solid var(--border-color-primary);
     border-radius: 0.5rem;
     background-color: var(--bg-color-secondary);
-    height: 15rem;
+    min-height: 15rem;
     padding: 1em;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .project-links {
-    flex: 2;
+    flex: 1.5;
     justify-content: flex-end;
     gap: 1em;
 }
@@ -69,4 +69,42 @@
 .project-desc {
     justify-content: flex-end;
     flex: 2;
+}
+
+@media screen and (max-width: 1300px) {
+    .item {
+        min-height: 16rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .item {
+        min-height: 17rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .item {
+        flex: 1;
+    }
+
+    .list {
+        gap: 1em;
+        row-gap: 1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .list {
+        flex-flow: column nowrap;
+        gap: 1em;
+    }
+
+    .item {
+        min-height: 13rem;
+    }
+
+    /* .project-info {
+        fle
+    } */
 }
