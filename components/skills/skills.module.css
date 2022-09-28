@@ -7,12 +7,10 @@
     flex-wrap: wrap;
     gap: calc((100% - (6 * 15%)) / 5);
     row-gap: 1em;
-    /* 1 1 1 1 1 1*/
 }
 
 .item {
     border: 1px solid var(--border-color-primary);
-    width: 6em;
     height: 6em;
     border-radius: 0.5rem;
     flex-direction: column;
@@ -24,4 +22,37 @@
 
 .item:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .list {
+        gap: calc((100% - (4 * 20%)) / 3);
+        row-gap: 1em;
+    }
+
+    .item {
+        flex-basis: 20%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .list {
+        gap: calc((100% - (3 * 30%)) / 2);
+        row-gap: 1em;
+    }
+
+    .item {
+        flex-basis: 30%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .list {
+        gap: calc((100% - (2 * 45%)) / 2);
+        row-gap: 1em;
+    }
+
+    .item {
+        flex-basis: 45%;
+    }
 }
