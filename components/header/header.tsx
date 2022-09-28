@@ -40,7 +40,7 @@ export default function Header() {
                         onClick={e => {
                             const target = e.target as HTMLElement;
                             if (!target.closest("svg")) return false;
-                            themeIconRef.current?.classList.toggle("toggled");
+                            themeIconRef.current?.classList.toggle(styles["header__icon--toggled"]);
                             dispatch(switchTheme());
                         }}
                     >
@@ -48,7 +48,7 @@ export default function Header() {
                             fontSize="small"
                             className={cn(
                                 "icon",
-                                "theme-icon"
+                                styles.header__icon
                             )}
                             ref={themeIconRef}
                         />

@@ -17,6 +17,18 @@
     display: initial;
 }
 
+.header__icon {
+    transition: 0.2s transform ease-in-out !important;
+}
+
+.header__icon:hover {
+    cursor: pointer !important;
+}
+
+.header__icon--toggled {
+    transform: rotate(180deg) !important;
+}
+
 @media screen and (max-width: 400px) {
     .header__link--removable {
         display: none;
