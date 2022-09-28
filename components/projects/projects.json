@@ -1,7 +1,7 @@
 [
     {
         "name": "Comms",
-        "desc": "Fullstack web application enabling real time text-based communication. It features two usage modes, one with, and one without account authentication. Real time notification were possible thanks to Socket.io library.",
+        "desc": "Fullstack web application enabling real time text-based communication. It features two usage modes, one with, and one without user authentication. Real time notifications were achieved thanks to Socket.io library. It's still under development.",
         "tags": [
             "typescript",
             "react",
@@ -24,7 +24,7 @@
     },
     {
         "name": "IP Helper",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "desc": "Fullstack web application serving as a help resource for people learning the basics of computer networking. As per its name, it simplifies certain operations done on IP addresses, that are commonly required on study exams.",
         "tags": [
             "typescript",
             "next",
@@ -45,7 +45,7 @@
     },
     {
         "name": "MotoRent",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "desc": "Fullstack web application serving as a managment app for a ficticious car rental company. Users can register and browse through the available offer. Once user decides on a given car, they can choose to rent it and complete the payment from the app.",
         "tags": [
             "javascript",
             "react",
@@ -66,7 +66,7 @@
     },
     {
         "name": "Thesis",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa corrupti aliquid quaerat iusto, saepe excepturi illum eaque delectus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi?",
+        "desc": "My Bachelor Thesis. It's main purpose was the analysis of the impact of video quality on the effectiveness of automatic object identification. This project used Python programming language with YOLOv4 image detection framework among other tools.",
         "tags": [
             "python",
             "ffmpeg",
