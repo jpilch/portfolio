@@ -19,10 +19,7 @@ export default function Header() {
 
 
     return (
-        <header className={cn(
-            utilStyles["flex-container"],
-            styles.header,
-        )}>
+        <header className={`${utilStyles["flex-container"]} ${styles.header}`}>
             <nav className={styles.header__nav}>
                 <ul className={`${styles.header__links} ${utilStyles["flex-container"]}`}>
                     <HeaderLink name={"Skills"} selector={skillStyles.skills} />
