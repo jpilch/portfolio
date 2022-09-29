@@ -8,7 +8,7 @@ import contactStyles from "../contact/contact.module.css";
 
 import Brightness6Icon from '@mui/icons-material/Brightness6';
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useDispatch } from "react-redux";
 import { switchTheme } from "../../features/theme/themeSlice";
 import HeaderLink from "./header-link";
@@ -17,13 +17,6 @@ export default function Header() {
     const themeIconRef = useRef<SVGSVGElement>(null);
     const dispatch = useDispatch();
 
-    const contactRef = useRef<HTMLElement | null>(null);
-
-    useEffect(() => {
-        contactRef.current = document.querySelector(`.${contactStyles.contact}`);
-    }, [])
-
-    console.log({ contactRef })
 
     return (
         <header className={cn(
