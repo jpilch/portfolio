@@ -2,15 +2,28 @@ import utilStyles from "../../utils/utils.module.css";
 import styles from "./header.module.css";
 import cn from "classnames";
 
+import skillStyles from "../skills/skills.module.css";
+import projectStyles from "../projects/projects.module.css";
+import contactStyles from "../contact/contact.module.css";
+
 import Brightness6Icon from '@mui/icons-material/Brightness6';
 
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { switchTheme } from "../../features/theme/themeSlice";
+import HeaderLink from "./header-link";
 
 export default function Header() {
     const themeIconRef = useRef<SVGSVGElement>(null);
     const dispatch = useDispatch();
+
+    const contactRef = useRef<HTMLElement | null>(null);
+
+    useEffect(() => {
+        contactRef.current = document.querySelector(`.${contactStyles.contact}`);
+    }, [])
+
+    console.log({ contactRef })
 
     return (
         <header className={cn(
@@ -22,10 +35,9 @@ export default function Header() {
                     utilStyles["flex-container"],
                     styles.header__links
                 )}>
-                    <li className={styles["header__link--removable"]}>Home</li>
-                    <li className={styles["header__link--removable"]}>Skills</li>
-                    <li className={styles["header__link--removable"]}>Projects</li>
-                    <li className={styles["header__link--removable"]}>Contact</li>
+                    <HeaderLink name={"Skills"} selector={skillStyles.skills} />
+                    <HeaderLink name={"Projects"} selector={projectStyles.projects} />
+                    <HeaderLink name={"Contact"} selector={contactStyles.contact} />
                     <li>
                         <a
                             href="https://drive.google.com/file/d/1GZjV3zYTT-atfjGKYtjkFyEeZH9ClXoH/view?usp=sharing"

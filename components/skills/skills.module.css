@@ -5,7 +5,7 @@
 .list {
     margin-top: 2em;
     flex-wrap: wrap;
-    gap: calc((100% - (6 * 15%)) / 5);
+    gap: calc((100% - (5 * 15%)) / 4);
     row-gap: 1em;
 }
 
@@ -26,6 +26,7 @@
 
 @media screen and (max-width: 800px) {
     .list {
+        justify-content: center;
         gap: calc((100% - (4 * 20%)) / 3);
         row-gap: 1em;
     }

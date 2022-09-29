@@ -17,6 +17,10 @@
     display: initial;
 }
 
+.header__link--removable:hover {
+    cursor: pointer;
+}
+
 .header__icon {
     transition: 0.2s transform ease-in-out !important;
 }
