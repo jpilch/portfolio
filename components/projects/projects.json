@@ -29,17 +29,12 @@
             "typescript",
             "next",
             "sass modules",
-            "ssr",
             "ssg"
         ],
         "links": [
             {
                 "name": "GitHub",
-                "url": "https://www.example.com"
-            },
-            {
-                "name": "Demo",
-                "url": "https://www.example.com"
+                "url": "https://github.com/jpilch/ip-helper"
             }
         ]
     },
@@ -59,8 +54,8 @@
                 "url": "https://github.com/jpilch/car-rental"
             },
             {
-                "name": "Demo",
-                "url": "https://www.example.com"
+                "name": "Live",
+                "url": "https://moto-rent.fly.dev/"
             }
         ]
     },
