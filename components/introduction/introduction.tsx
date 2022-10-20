@@ -14,7 +14,7 @@ export default function Introduction() {
             <p>Hello there! My name is
                 <span className={cn(styles.name)}> Jan Pilch.</span>
             </p>
-            <p>I am an aspiring web developer, interested in both frontend and backend development.</p>
+            <p>I am a web developer, interested in both frontend and backend development.</p>
         </section>
     )
 }
