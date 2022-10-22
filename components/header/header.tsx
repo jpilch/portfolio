@@ -27,7 +27,7 @@ export default function Header() {
                     <HeaderLink name={"Contact"} selector={contactStyles.contact} />
                     <li>
                         <a
-                            href="https://drive.google.com/file/d/1GZjV3zYTT-atfjGKYtjkFyEeZH9ClXoH/view?usp=sharing"
+                            href="https://drive.google.com/drive/folders/1n_k0lfk8dJ6YVdAQPoUa3TUrJ7Qnnrw5?usp=sharing"
                             target={"_blank"}
                             rel="noreferrer"
                         >
